@@ -1632,6 +1632,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #ec4899;
 }
 
+.hover\:to-red-500:hover {
+  --tw-gradient-to: #ef4444;
+}
+
 .hover\:font-semibold:hover {
   font-weight: 600;
 }
