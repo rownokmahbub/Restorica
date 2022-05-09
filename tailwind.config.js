@@ -26,7 +26,26 @@ module.exports = {
         'cla-fuchsia': '35px 35px 68px 0px rgba(253, 244, 255, 0.5), inset -12px -12px 16px 0px rgba(253, 244, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255)',
         'cla-pink': '35px 35px 68px 0px rgba(253, 242, 248, 0.5), inset -12px -12px 16px 0px rgba(253, 242, 248, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255)',
         'neo': '20px 20px 60px #bebebe, -20px -20px 60px #ffffff',
-      }
+      },
+      animation: {
+        blob: "blob 5s infinite",
+      },
+      keyframes: {
+        blob: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(30px, -50px) scale(1.1)",
+          },
+          "66%": {
+            transform: "translate(-20px, 20px) scale(0.9)",
+          },
+          "100%": {
+            transform: "tranlate(0px, 0px) scale(1)",
+          },
+        },
+      },
     },
   },
   plugins: [],
